@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50FF98C2C77D88F00DF3EC1 /* Color-Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50FF98B2C77D88F00DF3EC1 /* Color-Custom.swift */; };
 		F5219CBA2C32FA1B008634A2 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5219CB92C32FA1B008634A2 /* WeatherApp.swift */; };
 		F5219CBC2C32FA1B008634A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5219CBB2C32FA1B008634A2 /* ContentView.swift */; };
 		F5219CBE2C32FA1F008634A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5219CBD2C32FA1F008634A2 /* Assets.xcassets */; };
 		F5219CC12C32FA1F008634A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5219CC02C32FA1F008634A2 /* Preview Assets.xcassets */; };
+		F5219CC82C32FEA8008634A2 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5219CC72C32FEA8008634A2 /* Cloud.swift */; };
+		F52A84522C331BD5004213D5 /* CloudGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52A84512C331BD5004213D5 /* CloudGroup.swift */; };
+		F54E4C3E2C77E40300D66D07 /* Array-GradientStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54E4C3D2C77E40300D66D07 /* Array-GradientStop.swift */; };
+		F59579192C52C9D50077D9B2 /* CloudsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59579182C52C9D50077D9B2 /* CloudsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F50FF98B2C77D88F00DF3EC1 /* Color-Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Custom.swift"; sourceTree = "<group>"; };
 		F5219CB62C32FA1B008634A2 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5219CB92C32FA1B008634A2 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		F5219CBB2C32FA1B008634A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5219CBD2C32FA1F008634A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5219CC02C32FA1F008634A2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5219CC72C32FEA8008634A2 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		F52A84512C331BD5004213D5 /* CloudGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudGroup.swift; sourceTree = "<group>"; };
+		F54E4C3D2C77E40300D66D07 /* Array-GradientStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array-GradientStop.swift"; sourceTree = "<group>"; };
+		F59579182C52C9D50077D9B2 /* CloudsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +62,14 @@
 			isa = PBXGroup;
 			children = (
 				F5219CB92C32FA1B008634A2 /* WeatherApp.swift */,
+				F52A84512C331BD5004213D5 /* CloudGroup.swift */,
+				F5219CC72C32FEA8008634A2 /* Cloud.swift */,
 				F5219CBB2C32FA1B008634A2 /* ContentView.swift */,
+				F59579182C52C9D50077D9B2 /* CloudsView.swift */,
 				F5219CBD2C32FA1F008634A2 /* Assets.xcassets */,
 				F5219CBF2C32FA1F008634A2 /* Preview Content */,
+				F50FF98B2C77D88F00DF3EC1 /* Color-Custom.swift */,
+				F54E4C3D2C77E40300D66D07 /* Array-GradientStop.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -138,7 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5219CBC2C32FA1B008634A2 /* ContentView.swift in Sources */,
+				F59579192C52C9D50077D9B2 /* CloudsView.swift in Sources */,
+				F50FF98C2C77D88F00DF3EC1 /* Color-Custom.swift in Sources */,
+				F5219CC82C32FEA8008634A2 /* Cloud.swift in Sources */,
+				F54E4C3E2C77E40300D66D07 /* Array-GradientStop.swift in Sources */,
 				F5219CBA2C32FA1B008634A2 /* WeatherApp.swift in Sources */,
+				F52A84522C331BD5004213D5 /* CloudGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
